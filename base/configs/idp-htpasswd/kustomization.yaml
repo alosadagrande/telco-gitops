@@ -9,7 +9,7 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: Prune=false
 
 resources:
-- 01-htpasswd-secret-example.yaml
+- 01-htpasswd-secret.yaml
 - 02-htpasswd-idp.yaml
 - 03-cluster-admin-telcoadmin.yaml
 - 04-create-groups.yaml
