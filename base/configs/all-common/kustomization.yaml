@@ -13,4 +13,4 @@ bases:
   # local storage operator
   - ../../operators/local-storage-operator
   # LSO auto-discovery label
-  - ../lso
+  ## - ../lso
