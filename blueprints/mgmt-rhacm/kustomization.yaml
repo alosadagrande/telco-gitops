@@ -16,11 +16,11 @@ bases:
   # OpenShift Pipelines
   - ../../base/operators/openshift-pipelines
   # OpenShift Serverless
-  - ../../base/operators/openshift-serverless
+  ##- ../../base/operators/openshift-serverless
   # # Assisted Installer (now Infrastructre Operator)
-  - ../../base/operators/assisted-installer
+  ##- ../../base/operators/assisted-installer
   # Red Hat Advanced Cluster Manager for Kubernetes
-  # - ../../base/operators/advanced-cluster-management
+  - ../../base/operators/advanced-cluster-management
   # OpenShift Container storage
   # - ../../base/operators/openshift-container-storage
   # Quay Enterprise
