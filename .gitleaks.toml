@@ -1,1 +1,3 @@
-base/configs/idp-htpasswd/source/users.htpasswd
+[allowlist]
+  description = "global allowlist. whitelisting paths"
+  paths = ['''base/configs/idp-htpasswd/source/users.htpasswd''']
