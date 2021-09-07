@@ -4,5 +4,6 @@ metadata:
   name: openshift-performance-addon-operator
   annotations:
     workload.openshift.io/allowed: management
+    argocd.argoproj.io/sync-wave: "10"
   labels:
     openshift.io/run-level: "1"
