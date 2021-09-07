@@ -4,6 +4,8 @@ kind: SriovOperatorConfig
 metadata:
   name: default
   namespace: openshift-sriov-network-operator
+  annotations:
+    argocd.argoproj.io/sync-wave: "30"  
 spec:
   configDaemonNodeSelector:
     ran.openshift.io/sriov: ""
