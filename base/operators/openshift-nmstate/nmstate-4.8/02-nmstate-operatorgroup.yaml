@@ -3,6 +3,8 @@ kind: OperatorGroup
 metadata:
   name: openshift-nmstate-operator
   namespace: openshift-nmstate
+  annotations:
+    argocd.argoproj.io/sync-wave: "20"  
 spec:
   targetNamespaces:
   - openshift-nmstate
