@@ -5,6 +5,7 @@ metadata:
     kubernetes.io/metadata.name: openshift-sriov-network-operator
   annotations:
     workload.openshift.io/allowed: management
+    argocd.argoproj.io/sync-wave: "10"
   name: openshift-sriov-network-operator
 spec: {}
 status: {}
