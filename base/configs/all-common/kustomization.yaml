@@ -8,7 +8,7 @@ commonLabels:
 # NOTE: This is maintained for backwards compatibility of existing
 #       blueprint while migrations are completed
 
-# bases:
+bases:
   # Configure chrony
   # - ../chrony
   # Identity Provider (htpasswd)
