@@ -22,7 +22,7 @@ bases:
   # Red Hat Advanced Cluster Manager for Kubernetes
   - ../../base/operators/advanced-cluster-management
   # OpenShift Container storage
-  # - ../../base/operators/openshift-container-storage
+  - ../../base/operators/openshift-container-storage
   # Quay Enterprise
   # - ../../base/operators/quay-enterprise-operator
   # OpenShift Logging
