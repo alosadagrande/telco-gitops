@@ -3,4 +3,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- 02-lso-auto-discovery-devices.yaml
+#- 02-lso-auto-discovery-devices.yaml
+ - 00-lso-label-nodes.yaml
+ - 01-master-create-lvs-for-lso.yaml
+ - 02-lso-localvolume-lvs.yaml
+ 
