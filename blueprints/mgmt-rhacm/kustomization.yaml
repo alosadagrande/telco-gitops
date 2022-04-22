@@ -21,8 +21,8 @@ bases:
   - ../../base/operators/advanced-cluster-management
   # OpenShift Serverless
   ##- ../../base/operators/openshift-serverless
-  # # Assisted Installer (now Infrastructre Operator)
-  ##- ../../base/operators/assisted-installer
+  # Assisted Installer (now Infrastructre Operator)
+  - ../../base/operators/assisted-installer
   # OpenShift Container storage
   # - ../../base/operators/openshift-container-storage
   # Quay Enterprise
