@@ -6,4 +6,4 @@ kind: Kustomization
 #- 01-install.yaml
 # - 02-lso-auto-discovery-devices.yaml
 bases:
-  - lso-4.8
+  - lso-4.10
